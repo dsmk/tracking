@@ -1,0 +1,18 @@
+{
+  "name": "tracking",
+  "version": "1.0.0",
+  "description": "Tracking app with Serverless REST API with DynamoDB and offline support",
+  "repository": "",
+  "author": "David King <dsmk@bu.edu>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.12.0",
+    "package.json": "^2.0.1",
+    "serverless-dynamodb-local": "^0.2.18",
+    "serverless-offline": "^3.31.3",
+    "uuid": "^2.0.3"
+  },
+  "devDependencies": {
+    "serverless-mocha-plugin": "^1.9.0"
+  }
+}

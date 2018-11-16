@@ -21,6 +21,11 @@ provider:
   name: aws
   runtime: nodejs8.10
 
+plugins:
+#  - serverless-dynamodb-local
+  - serverless-mocha-plugin
+  - serverless-offline
+
 # you can overwrite defaults here
 #  stage: dev
 #  region: us-east-1
