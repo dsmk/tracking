@@ -14,8 +14,10 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
+    "dynalite": "^2.1.0",
     "mocha": "^5.2.0",
     "nyc": "^13.1.0",
+    "serverless-dynalite": "^1.4.0",
     "serverless-mocha-plugin": "^1.9.0"
   }
 }
