@@ -24,16 +24,17 @@ provider:
     DYNAMODB_TABLE: ${self:service}-${opt:stage, self:provider.stage}
 
 plugins:
-  - serverless-dynamodb-local
-  - serverless-mocha-plugin
+  #- serverless-dynamodb-local
+  #- serverless-mocha-plugin
+  #- serverless-dynalite
   - serverless-offline
 
-custom:
-  dynamodb:
-    start:
-      port: 8000
-      inMemory: true
-      migrate: true
+# custom:
+#   dynamodb:
+#     start:
+#       port: 8000
+#       inMemory: true
+#       migrate: true
     # migration:
     #   file: offline/migrations/category.json
 
